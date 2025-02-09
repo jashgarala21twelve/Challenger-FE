@@ -12,5 +12,5 @@ export const logoutApi = async (data: Record<string, any>) => {
 
 //Change Password Api
 export const ChangePasswordApi = async (data: Record<string, any>) => {
-  return axiosRequestWrapper(api.post, "/login", data);
+  return axiosRequestWrapper(api.post, "/change_password", data);
 };
