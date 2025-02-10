@@ -1,5 +1,5 @@
 import { useMutation } from "@tanstack/react-query";
-import { fetchDataByModel } from "@/api/userApi"; // Import API function
+import { fetchDataByModel } from "@/api/syncDBApi"; // Import API function
 
 export const useSyncDB = () => {
   return useMutation({

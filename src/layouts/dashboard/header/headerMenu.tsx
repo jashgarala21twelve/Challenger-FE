@@ -50,7 +50,7 @@ const HeaderMenu = () => {
 
   return (
     <div className="flex-1 flex items-center overflow-hidden px-3">
-      <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide whitespace-nowrap">
+      <div className="flex items-center gap-2 overflow-x-auto whitespace-nowrap">
         {memoizedMenuItems}
       </div>
     </div>

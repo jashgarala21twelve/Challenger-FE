@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchDataByModel } from "@/api/userApi";
+import { fetchDataByModel } from "@/api/syncDBApi";
 
 export const useFetchModel = () => {
   return useQuery({
